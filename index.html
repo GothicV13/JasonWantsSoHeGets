@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SCREAM 7</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;600;700&display=swap" rel="stylesheet">
+
+<style>
+:root {
+    --red: #c40000;
+    --black: #0b0b0b;
+    --gray: #1a1a1a;
+    --white: #f2f2f2;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Oswald', sans-serif;
+    background: var(--black);
+    color: var(--white);
+    line-height: 1.6;
+}
+
+/* HERO */
+.hero {
+    height: 100vh;
+    background: radial-gradient(circle at center, #1a0000, #000);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 4rem;
+    letter-spacing: 0.4rem;
+    color: var(--red);
+}
+
+.hero p {
+    margin-top: 10px;
+    font-size: 1.2rem;
+    color: #ccc;
+}
+
+/* SECTIONS */
+section {
+    padding: 70px 10%;
+}
+
+h2 {
+    font-size: 2.5rem;
+    color: var(--red);
+    margin-bottom: 20px;
+}
+
+p {
+    max-width: 800px;
+    color: #ddd;
+}
+
+/* CARDS */
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.card {
+    background: var(--gray);
+    padding: 25px;
+    border-left: 4px solid var(--red);
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+/* FOOTER */
+footer {
+    background: #050505;
+    text-align: center;
+    padding: 30px;
+    color: #777;
+    font-size: 0.9rem;
+}
+</style>
+</head>
+
+<body>
+
+<!-- HERO -->
+<div class="hero">
+    <div>
+        <h1>SCREAM 7</h1>
+        <p>The legacy continues…</p>
+    </div>
+</div>
+
+<!-- ABOUT -->
+<section>
+    <h2>About Scream 7</h2>
+    <p>
+        Scream 7 is the upcoming entry in the iconic slasher franchise that redefined horror.
+        Following the events of Scream VI, the series is expected to push the Ghostface legacy
+        even further — blending modern horror with the brutal, self-aware style the franchise
+        is known for.
+    </p>
+</section>
+
+<!-- WHAT WE KNOW -->
+<section>
+    <h2>What We Know So Far</h2>
+    <div class="cards">
+        <div class="card">
+            <h3>🔪 New Chapter</h3>
+            <p>
+                Scream 7 is expected to continue evolving the franchise while respecting its roots.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>🎭 Ghostface Returns</h3>
+            <p>
+                A new Ghostface killer will once again challenge survivors with brutal rules.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>🩸 Higher Stakes</h3>
+            <p>
+                Each sequel raises the body count — Scream 7 is expected to be no exception.
+            </p>
+        </div>
+    </div>
+</section>
+
+<!-- EXPECTATIONS -->
+<section>
+    <h2>Fan Expectations</h2>
+    <p>
+        Fans are hoping for darker kills, stronger character development, and clever meta commentary
+        on modern horror trends. With the franchise constantly reinventing itself, Scream 7 has the
+        potential to be one of the boldest entries yet.
+    </p>
+</section>
+
+<!-- FOOTER -->
+<footer>
+    <p>
+        Fan-made website • Not affiliated with Paramount Pictures • © SCREAM
+    </p>
+</footer>
+
+</body>
+</html>
